@@ -1,0 +1,22 @@
+.flex_wrapper {
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    background-color: #f6f6f6;
+}
+
+.logo_box {
+    width: 16em;
+
+    color: #000098;
+    
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
