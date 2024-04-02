@@ -1,0 +1,110 @@
+.flex__wrapper__chamada {
+    width: 100%;
+    height: 90vh;
+
+    background-color: #1b1b1b;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.input_wrapper {
+    width: 50vw;
+    height: 35vh;
+    max-width: 35rem;
+    max-height: 18rem;
+    border-radius: 16px;
+
+    background-color: #f0f8ff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.input_wrapper input {
+    width: 20vw;
+    height: 2rem;
+    padding-left: 0.5rem;
+
+    font-size: 1.15rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.input_wrapper p {
+    color: #1b1b1b;
+    font-weight: 500;
+}
+
+.input__wrapper__form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.5em;
+}
+
+.call_wrapper {
+    width: 80vw;
+    height: 50vh;
+    border-radius: 16px;
+
+    background-color: #acacac;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.call_box {
+    width: 75vw;
+    height: 45vh;
+    border-radius: 16px;
+    gap: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #202020;
+}
+
+.call {
+    width: 30vw;
+    height: 30vh;
+    max-height: 88px;
+    border-radius: 8px;
+
+    background-color: #f7f7f7;
+    color: #202020;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.call_local, .call_problema, .call_data, .call_autor {
+    text-align: left;
+    margin-left: 0.5rem;
+    font-weight: 500;
+}
+
+.button_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+}
